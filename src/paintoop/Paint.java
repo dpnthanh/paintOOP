@@ -367,11 +367,9 @@ public class Paint extends javax.swing.JFrame implements MouseListener {
         switch(Type){
             case "rectangle":
                 drawer.addShape(new ShapeMaker().createRectangle(PosX, PosY, Wid, Leg, Clr, Fill));
-                System.out.println("add rec");
                 break;
             case "oval":
                 drawer.addShape(new ShapeMaker().createOval(PosX, PosY, Wid, Leg, Clr, Fill));
-                System.out.println("add oval");
                 break;
         }
         drawer.drawLastShape();

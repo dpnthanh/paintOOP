@@ -48,7 +48,6 @@ public class Drawer {
         for (int i = 0; i < listShape.size(); i++) {
             Shape shape = listShape.get(i);
             shape.draw(grapphic);
-            System.out.println("draw" + i);
         }
         
     }
